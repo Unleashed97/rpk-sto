@@ -1,2 +1,7 @@
 .header {
+    box-shadow: 0 5px 15px 2px rgba($colors-secondary, 0.3);
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
 }
