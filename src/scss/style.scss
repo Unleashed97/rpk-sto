@@ -34,8 +34,20 @@ a {
     color: inherit;
 }
 
+.highlight {
+    color: $colors-additional;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 // components
 @import 'components/header.scss';
 @import 'components/contacts.scss';
 @import 'components/container.scss';
+@import 'components/section.scss';
+@import 'components/advantages.scss';
 @import 'components/footer.scss';
