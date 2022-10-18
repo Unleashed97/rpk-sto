@@ -47,11 +47,11 @@
         .section__decor {
             position: absolute;
             top: 0;
-            left: -300px;
+            left: -20%;
         }
 
         .section__inner {
-            padding: 100px;
+            padding: 100px 0;
         }
 
         .section__content {
@@ -60,6 +60,12 @@
             grid-template-columns: repeat(3, 1fr);
             grid-auto-rows: auto;
             gap: 30px;
+        }
+    }
+
+    &--pickup {
+        .section__content {
+            margin-top: 100px;
         }
     }
 

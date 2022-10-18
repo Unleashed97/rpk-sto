@@ -18,11 +18,14 @@
     &__front,
     &__back {
         width: 100%;
+        padding: 10px;
 
         backface-visibility: hidden;
         position: absolute;
         top: 0;
         left: 0;
+
+        border-radius: 10px;
     }
 
     &__front {
@@ -34,6 +37,8 @@
 
         z-index: 2;
         transform: rotateY(0deg);
+
+        // box-shadow: 0 8px 24px rgba($colors-secondary, 0.2);
     }
 
     &__image {
@@ -55,8 +60,6 @@
     }
 
     &__back {
-        padding: 10px;
-
         font-size: 16px;
         font-weight: 300;
         line-height: 1.4;
@@ -64,7 +67,6 @@
         text-align: center;
 
         background-color: $colors-additional;
-        border-radius: 10px;
         transform: rotateY(180deg);
     }
 }
