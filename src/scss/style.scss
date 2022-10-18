@@ -44,6 +44,12 @@ img {
     height: auto;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
 // components
 @import 'components/header.scss';
 @import 'components/contacts.scss';

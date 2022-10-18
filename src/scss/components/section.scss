@@ -69,6 +69,26 @@
         }
     }
 
+    &--services {
+        .section__content {
+            display: flex;
+            justify-content: space-around;
+            gap: 40px;
+        }
+
+        .section__list {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        .section__list-item {
+            font-size: 20px;
+
+            color: $colors-additional;
+        }
+    }
+
     &__inner {
         padding: 100px 0;
     }
