@@ -39,6 +39,30 @@
         }
     }
 
+    &--about {
+        position: relative;
+
+        overflow: hidden;
+
+        .section__decor {
+            position: absolute;
+            top: 0;
+            left: -300px;
+        }
+
+        .section__inner {
+            padding: 100px;
+        }
+
+        .section__content {
+            margin-top: 70px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-auto-rows: auto;
+            gap: 30px;
+        }
+    }
+
     &__inner {
     }
 

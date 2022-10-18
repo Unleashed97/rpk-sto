@@ -9,7 +9,6 @@
         align-items: center;
         gap: 10px;
 
-        max-width: 20%;
         font-size: 15px;
         font-weight: 700;
     }
@@ -17,5 +16,9 @@
     &__icon {
         width: 50px;
         height: 60px;
+    }
+
+    &__text {
+        max-width: 200px;
     }
 }
