@@ -4,6 +4,12 @@
     justify-content: center;
     gap: 3px;
 
+    &--footer {
+        .contacts__item {
+            color: $colors-primary;
+        }
+    }
+
     &__item {
         display: flex;
         align-items: center;
