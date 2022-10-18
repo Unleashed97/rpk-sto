@@ -1,0 +1,23 @@
+.btn {
+    border: 0;
+    background: none;
+    cursor: pointer;
+
+    &--tabs {
+        padding: 10px 0;
+
+        font-size: 18px;
+        font-weight: 700;
+        color: $colors-secondary;
+
+        border-radius: 10px;
+
+        transition: 0.3s linear;
+
+        &:hover,
+        &.active {
+            background-color: $colors-additional;
+            color: $colors-primary;
+        }
+    }
+}

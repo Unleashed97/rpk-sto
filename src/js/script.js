@@ -1,4 +1,5 @@
 import * as customFunctions from './modules/functions.js'
+customFunctions.handleTabs()
 
 // vendors
 import Swiper, { Navigation, Pagination } from 'swiper'
