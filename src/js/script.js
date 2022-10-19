@@ -13,7 +13,7 @@ const swiper1 = new Swiper('.swiper--printing', {
     spaceBetween: 40,
 
     breakpoints: {
-        320: {
+        0: {
             slidesPerView: 1,
             spaceBetween: 20,
         },
@@ -50,7 +50,7 @@ const swiper2 = new Swiper('.swiper--postprinting', {
     spaceBetween: 40,
 
     breakpoints: {
-        320: {
+        0: {
             slidesPerView: 1,
             spaceBetween: 20,
         },
@@ -87,7 +87,7 @@ const swiper3 = new Swiper('.swiper--works', {
     spaceBetween: 40,
 
     breakpoints: {
-        320: {
+        0: {
             slidesPerView: 1,
             spaceBetween: 20,
         },
