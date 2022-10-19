@@ -4,6 +4,14 @@
     justify-content: center;
     gap: 3px;
 
+    &--header {
+        @media (max-width: $sm) {
+            .contacts__icon {
+                display: none;
+            }
+        }
+    }
+
     &--footer {
         .contacts__item {
             color: $colors-primary;

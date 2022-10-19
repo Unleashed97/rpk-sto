@@ -3,8 +3,6 @@
         min-height: 590px;
         margin-top: 67px;
 
-        background-image: url('../img/section/showcase/bg.png');
-
         animation: bg-shift 120s linear infinite;
 
         .section__inner {
@@ -179,4 +177,13 @@
     100% {
         background-position: 2000px 0;
     }
+}
+
+// webp support
+.no-webp .section--showcase {
+    background-image: url('../img/section/showcase/bg.png');
+}
+
+.webp .section--showcase {
+    background-image: url('../img/section/showcase/bg.webp');
 }
