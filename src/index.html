@@ -29,7 +29,32 @@
                         </p>
                     </div>
                     <div class="section__content">
+                        <form action="/" class="form form--showcase">
+                            <header class="form__header">
+                                <h3 class="form__title">Напишите нам</h3>
+                            </header>
+                            <div class="form__body">
+                                <div class="form__group">
+                                    <input type="text" class="form__input" name="name" placeholder="Ваше имя" required>
+                                </div>
+                                <div class="form__group">
+                                    <input type="email" class="form__input" name="email" placeholder="Ваша почта"
+                                        required>
+                                </div>
+                                <div class="form__group">
+                                    <textarea name="message" class="form__textarea">Ваше сообщение...</textarea>
+                                </div>
+                                <div class="form__group">
+                                    <label for="form-showcase-input" class="form__label">
+                                        <input type="checkbox" id="form-showcase-input" class="input__checkbox"
+                                            required>
 
+                                        Согласен с <a href="policy.pdf">политикой конфиденциальности</a>
+                                    </label>
+                                </div>
+                                <button type="submit" class="btn form__btn ">Отправить</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -962,8 +987,36 @@
         </section> <!-- end of section pickup -->
 
         <!-- map -->
-        <script type="text/javascript" charset="utf-8" defer
-            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aeef70c82b14365ba66d0ee61c4cba4ef22e9abf37f5c420d023d2c47302d6695&amp;width=100%25&amp;height=720&amp;lang=ru_RU&amp;scroll=false"></script>
+        <div class="map">
+            <script type="text/javascript" charset="utf-8" defer
+                src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aeef70c82b14365ba66d0ee61c4cba4ef22e9abf37f5c420d023d2c47302d6695&amp;width=100%25&amp;height=720&amp;lang=ru_RU&amp;scroll=false"></script>
+
+
+            <form action="/" class="form form--map">
+                <header class="form__header">
+                    <h3 class="form__title">Напишите нам</h3>
+                </header>
+                <div class="form__body">
+                    <div class="form__group">
+                        <input type="text" class="form__input" name="name" placeholder="Ваше имя" required>
+                    </div>
+                    <div class="form__group">
+                        <input type="email" class="form__input" name="email" placeholder="Ваша почта" required>
+                    </div>
+                    <div class="form__group">
+                        <textarea name="message" class="form__textarea">Ваше сообщение...</textarea>
+                    </div>
+                    <div class="form__group">
+                        <label for="form-map-input" class="form__label">
+                            <input type="checkbox" id="form-map-input" class="input__checkbox" required>
+
+                            Согласен с <a href="policy.pdf">политикой конфиденциальности</a>
+                        </label>
+                    </div>
+                    <button type="submit" class="btn form__btn ">Отправить</button>
+                </div>
+            </form>
+        </div>
 
         <!-- section services -->
         <section class="section section--services">

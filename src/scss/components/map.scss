@@ -1,0 +1,11 @@
+.map {
+    max-height: 720px;
+    position: relative;
+
+    .form--map {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 10%;
+    }
+}

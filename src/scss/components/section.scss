@@ -7,7 +7,11 @@
         animation: bg-shift 120s linear infinite;
 
         .section__inner {
-            padding: 100px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+            padding: 50px 0;
         }
 
         .section__header {

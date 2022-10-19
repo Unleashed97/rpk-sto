@@ -1,0 +1,77 @@
+.form {
+    max-width: 360px;
+
+    &__header {
+        padding: 20px;
+        background-color: $colors-additional;
+        color: $colors-primary;
+    }
+
+    &__title {
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    &__body {
+        padding: 20px;
+        background-color: rgba($colors-primary, 0.7);
+    }
+
+    &__group {
+        margin-bottom: 20px;
+    }
+
+    &__label {
+        font-size: 13px;
+
+        a {
+            color: $colors-additional;
+            text-decoration: underline;
+        }
+    }
+
+    &__input,
+    &__textarea,
+    &__btn {
+        width: 100%;
+        border-radius: 5px;
+        padding: 8px 15px;
+        outline: none;
+    }
+
+    &__input {
+        background-color: $colors-primary;
+        border: 2px solid transparent;
+
+        transition: 0.3s linear;
+
+        &:focus {
+            border-color: $colors-additional;
+        }
+
+        &::placeholder {
+            color: #aaa;
+        }
+    }
+
+    &__textarea {
+        min-height: 100px;
+        background-color: $colors-primary;
+        border: 2px solid transparent;
+        resize: none;
+
+        transition: 0.3s linear;
+
+        &:focus {
+            border-color: $colors-additional;
+        }
+    }
+
+    &__btn {
+        background-color: $colors-additional;
+        font-size: 18px;
+        font-weight: 700;
+        color: $colors-primary;
+    }
+}
