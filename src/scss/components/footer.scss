@@ -2,7 +2,7 @@
     background-color: #555;
 
     &__inner {
-        height: 100px;
+        padding: 20px 0;
 
         display: flex;
         justify-content: flex-end;
@@ -11,6 +11,10 @@
 
         font-size: 20px;
         color: $colors-primary;
+
+        @media (max-width: $md) {
+            flex-direction: column;
+        }
     }
 
     &__privacy-policy {

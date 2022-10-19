@@ -12,6 +12,21 @@ const swiper1 = new Swiper('.swiper--printing', {
     slidesPerView: 3,
     spaceBetween: 40,
 
+    breakpoints: {
+        320: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+        },
+        676: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+        },
+        768: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+        },
+    },
+
     modules: [Navigation, Pagination],
     // If we need pagination
     pagination: {
@@ -33,6 +48,21 @@ const swiper2 = new Swiper('.swiper--postprinting', {
     slidesPerView: 3,
     spaceBetween: 40,
 
+    breakpoints: {
+        320: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+        },
+        676: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+        },
+        768: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+        },
+    },
+
     modules: [Navigation, Pagination],
     // If we need pagination
     pagination: {
@@ -53,6 +83,21 @@ const swiper3 = new Swiper('.swiper--works', {
 
     slidesPerView: 3,
     spaceBetween: 40,
+
+    breakpoints: {
+        320: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+        },
+        676: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+        },
+        768: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+        },
+    },
 
     modules: [Navigation, Pagination],
     // If we need pagination
